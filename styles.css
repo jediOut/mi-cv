@@ -10,7 +10,9 @@ body {
     justify-content: center;
     color: #fff;
 }
-
+label{
+    text-wrap: nowrap;
+}
 body {
     box-sizing: border-box;
     background-color: #191f31e7;
