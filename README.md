@@ -13,4 +13,4 @@ Este proyecto es un CV interactivo creado con HTML y CSS.
 
 ## Contacto
 
-Puedes contactarme a través de [mi email](mailto:ejemplo@mail.com).
+Puedes contactarme a través de [mi email](jedi.viera@gmail.com).
