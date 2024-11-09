@@ -19,7 +19,7 @@ div {
     justify-content: center;
     align-items: start;
     align-content: start;
-    max-width: 1000px;
+    max-width: 1200px;
     margin: auto;
 }
 
@@ -144,7 +144,11 @@ h4 {
 .list-style li {
     text-align: start;
     text-wrap: pretty;
+    padding: 10px 10px;
+}
+label{
     padding: 10px 0;
+    font-size: 1.2rem;
 }
 
 .puesto-titulo,
@@ -258,7 +262,7 @@ h4 {
     body {
         position: relative;
         margin: 0;
-        background-image: url("img/background.webp");
+        background-image: url(img/background.webp);
         background-attachment: fixed;
         background-size: cover;
         background-position: center;
@@ -275,7 +279,6 @@ h4 {
         filter: blur(25px);
         z-index: -1;
     }
-
 
     .grid {
         display: grid;
@@ -325,13 +328,34 @@ h4 {
     }
 
     .header {
+        /* position: fixed; */
+        /* top: 0; */
+        border-radius: 10PX;
+        background-image: linear-gradient(130deg, #191f31e7, #4bd6);
         text-align: center;
-        /* background: linear-gradient(to bottom, rgb(20, 22, 24), #000); */
-        background: transparent;
-        /* box-shadow: 0 0 5px #000; */
-
+        z-index: 20;
+        /* height: 277px; */
+        overflow: hidden;
     }
 
+    /* .header::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-image: url("img/background.webp");
+        background-size: top;
+        background-position: center;
+        filter: blur(25px); 
+        z-index: -1;
+    } */
+
+    .flex {
+        margin-top: 70px;
+
+    }
 
     .titulo-principal {
         font-size: 6rem;
@@ -351,7 +375,12 @@ h4 {
         font-size: 2rem;
         padding: 0 0 10px 0;
     }
-
+    label{
+        margin: 0;
+        padding: 0;
+        font-size: 1.2rem;
+        text-wrap: wrap;
+    }
     /* Personalizacion del scroll*/
     .grid-item::-webkit-scrollbar {
         width: 9px;
