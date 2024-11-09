@@ -4,7 +4,7 @@ Este es mi currículum en formato web.
 
 ## Descripción
 
-Este proyecto es un CV interactivo creado con HTML y CSS.
+Este proyecto es un CV creado con HTML y CSS (diseño responsive).
 
 ## Tecnologías
 
