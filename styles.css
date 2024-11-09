@@ -331,11 +331,12 @@ label{
         /* position: fixed; */
         /* top: 0; */
         border-radius: 10PX;
-        background-color: linear-gradient(130deg, #191f31e7, #4bd6);
+/*         background-color: linear-gradient(130deg, #191f31e7, #4bd6); */
+         background: linear-gradient(to bottom left, #191f31, #32b8ddec);
         text-align: center;
-        z-index: 20;
+/*         z-index: 20; */
         /* height: 277px; */
-        overflow: hidden;
+/*         overflow: hidden; */
     }
 
     /* .header::before {
