@@ -384,7 +384,8 @@ label{
     }
     /* Personalizacion del scroll*/
     .grid-item::-webkit-scrollbar {
-        width: 9px;
+        width: 5px;
+        heigth:auto;
     }
 
     .grid-item::-webkit-scrollbar-thumb {
