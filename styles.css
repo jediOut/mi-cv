@@ -146,7 +146,8 @@ h4 {
     text-wrap: pretty;
     padding: 10px 10px;
 }
-label{
+
+label {
     padding: 10px 0;
     font-size: 1.2rem;
 }
@@ -167,19 +168,27 @@ label{
 .contacto-style {
     padding: 20px;
 }
-a{
-   text-decoration: none;
+
+a {
+    text-decoration: none;
+    margin: 0;
 }
-.icon-style{
+img{
+    margin: 0;
+}
+.icon-style {
     width: 50px;
     padding: 0;
     height: auto;
-    border-radius: 50%;
     transition: transform .3s ease;
+    position: relative;
+    top: 8px;
 }
-.icon-style:hover{
+
+.icon-style:hover {
     transform: scale(1.1);
 }
+
 .experiencia-header,
 .educacion-header {
     display: flex;
@@ -343,12 +352,12 @@ a{
         /* position: fixed; */
         /* top: 0; */
         border-radius: 10PX;
-/*         background-color: linear-gradient(130deg, #191f31e7, #4bd6); */
-         background: linear-gradient(to bottom left, #191f31, #32b8ddec);
+        /*         background-color: linear-gradient(130deg, #191f31e7, #4bd6); */
+        background: linear-gradient(to bottom left, #191f31, #32b8ddec);
         text-align: center;
-/*         z-index: 20; */
+        /*         z-index: 20; */
         /* height: 277px; */
-/*         overflow: hidden; */
+        /*         overflow: hidden; */
     }
 
     /* .header::before {
@@ -388,16 +397,18 @@ a{
         font-size: 2rem;
         padding: 0 0 10px 0;
     }
-    label{
+
+    label {
         margin: 0;
         padding: 0;
         font-size: 1.2rem;
         text-wrap: wrap;
     }
+
     /* Personalizacion del scroll*/
     .grid-item::-webkit-scrollbar {
         width: 5px;
-        heigth:auto;
+        height: auto;
     }
 
     .grid-item::-webkit-scrollbar-thumb {
