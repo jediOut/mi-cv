@@ -167,13 +167,13 @@ label{
 .contacto-style {
     padding: 20px;
 }
-.iconos-redes{
-    padding: 20px;
+a{
+   text-decoration: none;
 }
 .icon-style{
     width: 50px;
+    padding: 0;
     height: auto;
-    margin-left: 20px;
     border-radius: 50%;
     transition: transform .3s ease;
 }
